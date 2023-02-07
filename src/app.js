@@ -32,6 +32,10 @@ const getPersons = async () => {
 
 getPersons();
 
+divElement.addEventListener("click", (e) => {
+         e.preventDefault();
+});
+
 // divElement.addEventListener("click", (e) => {
 //     e.preventDefault();
 //     console.log(e.target);
